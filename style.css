@@ -1,0 +1,95 @@
+/* Write some CSS below */
+body {
+	font-family: 'Big Shoulders Display', cursive;
+  color: #000000;
+  background-color: white;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+}
+
+h1, h2, h3{
+  font-family: 'Lexend Mega', monospace;
+  text-align: center;
+}
+
+a {
+  color: #4de0ff;
+  font-weight: 400;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: #4de0ff;
+  background-color:#000000;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.banner {
+background-size:cover;
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("images/tiger.jpg");
+padding: 200px;
+color: white;
+background-position: bottom;
+text-align:center;
+font-weight:700;
+}
+
+.banner a{
+	color: black;
+	background-color: white;
+	padding:10px;
+	border-radius:10px;
+	font-weight:bold;
+}
+
+.banner a:hover{
+	background-color:rgba(0,0,0,0.0);
+	color:white;
+}
+.container h2{
+	text-align:center;
+	}
+.card-white {
+	background-color:white;
+	box-shadow:1px 1px 10px rgba(0,0,0,0.2);
+	border-radius:3px;
+	width:250px;
+	text-align:center;
+	padding:10px;
+}
+
+.card-white h3{
+text-align:center;
+font-size:24px;
+}
+
+	.cards{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 16px;
+	}
+
+	
+	#rose {
+		padding-top: 70px;
+		padding-bottom: 92px;
+	}
+
+	#cat {
+		padding-top: 40px;
+		padding-bottom: 75px;
+	}
+
+	#orca {
+		padding-top: 70px;
+	padding-bottom:60px;
+}
+
+.footer h3{
+	text-align:left;
+}
